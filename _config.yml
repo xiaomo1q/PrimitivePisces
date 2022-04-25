@@ -1,9 +1,7 @@
 # Site settings
-title: Lokmont
-description: Lokmont is a responsive simple theme for Jekyll.
+title: Pisces
+description: simple theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lokmont-jekyll.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
-
-repository: github_username/github_username.github.io
-github_url: https://github.com/github_username
-url: https://github_username.github.io
+repository: "xiaomo1q/PrimitivePisces"
+github_url: "https://github.com/xiaomo1q"
+url: "https://xiaomo1q.github.io/PrimitivePisces/"
