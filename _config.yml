@@ -5,3 +5,43 @@ baseurl: "" # the subpath of your site, e.g. /blog
 repository: "xiaomo1q/PrimitivePisces"
 github_url: "https://github.com/xiaomo1q"
 url: "https://xiaomo1q.github.io/PrimitivePisces/"
+
+# Banner Section
+hero: 112.jpg
+hero-title: Welcome to Lokmont
+hero-description: A Responsive Jekyll Blog Theme. Theme suitable for any kind of creators.
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+include:
+  - _pages
+
+# Exclude from processing.
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - vendor
